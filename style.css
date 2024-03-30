@@ -1,0 +1,47 @@
+body{
+    display: flex-column;
+    margin: 15px;
+    background-color: #a5b1c2;
+}
+div{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: inline-block;   
+    
+    width: 95%;
+    height: 30%;
+    border-radius: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-size: xx-large;
+    background-color: #a5b1c2;
+
+}
+button{
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 1px;
+    border: solid 1px black;
+    background-color: #45aaf2;
+    color: white;
+}
+button:hover{
+    box-shadow: 3px 5px 5px black;  
+    color: black;
+}
+.dateInput{
+    margin: 5px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 1px black;
+    background-color: antiquewhite;
+}
+header{
+    width: 30%;
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
